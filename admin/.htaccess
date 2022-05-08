@@ -1,0 +1,5 @@
+AuthName "Page d'administration protégée"
+AuthType Basic
+AuthUserFile "/home/lelkhouk/Documents/archiDevWeb/teaV2/ressources/SiteWebShop/admin/.htpasswd"
+Require valid-user
+

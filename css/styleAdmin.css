@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    margin: 5%;
+    font-size: 40px;
+}
+main{
+    margin: 3%;
+}
+body{
+    background-color:dimgrey;
+    color: white;
+}
+legend{
+    font-size: 25px;
+}
+table tr th{
+    border: 2px solid white;
+}
+table tr td{
+    border: 2px solid white;
+}
+th, td {
+    padding: 20px;
+}
+table {
+
+margin-left: 10%;
+    border-collapse: collapse;
+    border: 2px solid white;
+}

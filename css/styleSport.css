@@ -1,0 +1,302 @@
+/***************globalité de la page********/
+html,body{
+    
+      margin: 0;
+}
+    
+    
+
+body{
+    position: relative;/* pour fixer le footer en bas de la page*/
+    margin: 0;
+    padding: 0;
+    /*background: linear-gradient(70deg, #c2f5f9, #b887f3);/*couleur de background en degradé*/
+     background-color:#f0e9e6;
+    height: 100%;
+    
+
+    
+   
+    
+}
+
+a{
+    color:#FF0070;
+    text-decoration: none;
+}
+
+/******************header*******************/
+header{
+    position:fixed;
+    width:100%;
+    top: 0px;
+    background-color: rgba(158,140,199,.5);
+}
+h1{
+    font-family: 'Indie Flower', cursive;
+     color:white;
+    padding-right: 5%;
+    padding-left: 3%;
+    font-size:55px;
+     text-shadow: 1px 1px 2px black;   
+    
+   
+}
+#logoP{
+      text-shadow: 1px 1px 2px grey;
+     color:white;
+    padding: 4%;
+
+    font-size: 40px;
+}
+.titrePrincipale{
+    
+    
+    display: flex;
+    flex-direction: row;
+   
+    
+    
+}
+
+
+
+
+
+/******************main********************/
+main{
+    background-color: #f0e9e6;
+    margin-right: 7%;
+    margin-left: 7%;
+    padding: 3%;
+   
+    
+
+}
+
+/***icone***/
+
+.icone{
+    display: flex;
+    
+    flex-direction:row;
+    padding: 3%;
+    margin-left: 100%;
+    font-size: 30px;
+    color: #817d7d;
+}
+
+
+/**fin icone**/
+.connexion{
+	text-align: center;
+	margin: 13%;
+    
+    
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between ;
+	
+}
+.connexion p{
+    color:#424445;
+    text-shadow: none;
+
+}
+
+#imgs{
+    display: flex;
+    flex-direction: row;
+}
+.menu img{
+    width: 90%;
+    height: 80%;
+}
+
+#img{
+    margin-left: 2.7%;
+    display: block;
+    width: 150%;
+    height: auto;
+   
+}
+#maSection{
+    border:4px solid #b5b2b2;
+    border-radius: 15px 50px; 
+    margin-bottom: 15%;
+}
+
+
+main section{
+    
+    align-items: center;
+   
+	display:flex;
+    justify-content:space-between;
+	flex-direction: row;
+}
+main section p{
+    margin-left: 15%;
+    color:#505151;
+    text-shadow: black;
+    font-size: 1.5rem;
+	text-align: left;
+    
+}
+
+
+#titreDestination{
+    text-align: center;
+    margin:7%;
+    font-size: 30px;
+    color:#25324e;
+}
+
+
+
+#uneDestination{
+    
+     border:2px solid #25324e;
+    padding: 0;
+    background-color: #cdd3d3;
+    width: 300px;
+    height: 200px;
+}
+#uneDestination img:hover{
+    opacity:1;
+}
+
+.elementuneDestination h3{
+    text-align: center;
+    margin-left: 1.5%;
+    color:#424445;
+
+}
+.elementuneDestination strong{
+    color:#f16823;
+    margin-right: 1.5%;
+}
+.elementuneDestination img{
+    height: 140px;
+    width: 300px;
+    opacity:0.7;
+    
+    
+}
+#troisDestinations{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ul{
+
+	list-style: none;
+
+}
+
+#imgCentre{
+    width: 100%;
+    padding-bottom: 10%;
+    
+
+}
+
+/******** style pour une destination****/
+#uneDestination2{
+
+    border:2px solid #25324e;
+    padding: 0;
+    width: 320px;
+    height: 250px;
+}
+
+
+.elementuneDestination2 img{
+    height: 250px;
+    width: 320px;
+    opacity:1;
+    
+    
+}
+.elementuneDestination2 h3{
+    text-align: center;
+    margin-left: 1.5%;
+    color:#424445;
+
+}
+
+#maSection2{
+    display: flex;
+    flex-direction: column;
+    background-color: #dcd7d7;
+    border:none;
+     border-radius: 25px;
+    margin:3%;
+    opacity: 0.7;
+}
+#maSection2 h3{
+    color:#4d395a;
+    font-size:24px;
+}
+#maSection2:hover{
+    opacity:1;
+}
+#grandeSection{
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+#petiteSection strong{
+    color:#f16823;
+    margin-right: 15%;
+    font-size: 26px;
+}
+#petiteSection button{
+     
+    font-size: 18px;
+    margin-left: 10%;
+}
+
+/****** fin style une destination *****/
+
+/***tableau mon compte**/
+table tr th{
+    border: 2px solid white;
+}
+table tr td{
+    border: 2px solid white;
+}
+th, td {
+    padding: 20px;
+}
+table {
+    color:#25324e;
+    margin-left: 10%;
+    border-collapse: collapse;
+    border: 2px solid #25324e ;
+}
+
+/*************fin du main********************/
+
+
+
+/******************footer******************/
+footer{
+    color:white;
+    font-size: 19px;
+    margin-top:5rem;
+    
+    bottom:0;
+    position: relative; bottom: 0; left: 0; right: 0;
+
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%; height: 150px;
+    clear: both;
+    
+    
+}
